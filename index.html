@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text - to - Speech</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body  onload="init()">
+	<div class="container">
+
+        <table>
+            <caption><img src="logo-final.png" alt="amazing"></caption>
+            <thead>
+                <tr>
+                    <th colspan="4" id="heading">Text to Speech</th>
+                </tr>
+            </thead>
+            <tbody>
+            	<tr>
+            		<td id="file">
+            			<button class="inputButton" type="">
+            				<input id="fileInput" type="file" name="file"/>
+            			</button>
+            		</td>
+            		<td id="controller">
+            			<button class="button" onclick="speak()">Start</button>
+            			<button class="button" id="pause">Pause</button>
+            		</td>
+            	</tr>
+                <tr>
+                	<td id="fileContent"> Please upload ' .txt '  File .............</td>
+                </tr>
+            </tbody>
+        </table>     
+        
+    </div>
+
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
